@@ -1,0 +1,30 @@
+{
+    "name": "jstesttemplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --unhandled-rejections=strict --require esm ./test/**/*.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Laskoran/jsTestTemplate.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Laskoran/jsTestTemplate/issues"
+    },
+    "homepage": "https://github.com/Laskoran/jsTestTemplate#readme",
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "chai-as-promised": "^7.1.1",
+        "chai-http": "^4.3.0",
+        "esm": "^3.2.25",
+        "mocha": "8.1.2",
+        "mochawesome": "4.1.0",
+        "nyc": "^15.1.0",
+        "prettier": "^2.3.2",
+        "sinon": "^11.1.1"
+    }
+}
